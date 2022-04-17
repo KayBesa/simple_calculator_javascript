@@ -3,10 +3,8 @@ The styling required for the calculator
 */
 
 body {
-    background-color: white;
     height: 100%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding-bottom: 800px;
 }
 
 
@@ -34,10 +32,16 @@ Screen of the calculator
     border-style: solid;
     border-color: gray;
     border-radius: 5%;
+    background-color: rgb(216, 215, 215);
+    transition: box-shadow .3s;
     width: 90%;
     height: 50px;
     margin: 0 auto;
     margin-top: 25px;
+}
+
+.screen:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
 }
 
 
@@ -53,4 +57,40 @@ Buttons
     height: 78%;
     margin: 0 auto;
     margin-top: 25px;
+    background-color: rgb(216, 215, 215);
+}
+
+.Buttons1 {
+    width: 75%;
+}
+
+.buttonEq {
+    width: 27%;
+    height: 90%;
+    float: right;
+}
+
+.buttonEq::before {
+    margin-top: 0px;
+}
+
+button {
+    height: 75px;
+    width: 90px;
+    margin-left: 17px;
+    margin-top: 16px;
+    border-radius: 10%;
+    font-size: larger;
+    font-weight: 100;
+    background-color: azure;
+}
+
+button:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+.equals {
+    height: 348px;
+    border-radius: 3.5%;
+    background-color: rgba(48, 124, 249, 0.2);
 }
