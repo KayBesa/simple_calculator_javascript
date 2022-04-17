@@ -1,0 +1,56 @@
+/*
+The styling required for the calculator
+*/
+
+body {
+    background-color: white;
+    height: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 800px;
+}
+
+
+/*
+Base of calculator
+*/
+
+.wrapper {
+    border-style: solid;
+    border-color: gray;
+    border-radius: 5%;
+    width: 500px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 50px;
+}
+
+
+/*
+Screen of the calculator
+*/
+
+.screen {
+    border-style: solid;
+    border-color: gray;
+    border-radius: 5%;
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+
+/*
+Buttons
+*/
+
+.buttons {
+    border-style: solid;
+    border-color: gray;
+    border-radius: 5%;
+    width: 90%;
+    height: 78%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
